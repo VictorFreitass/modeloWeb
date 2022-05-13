@@ -7,6 +7,17 @@
     <title>Atividade</title>
     <link rel="stylesheet" href="styles/styles.css">
     <style>
+    body {
+        margin: 0;
+    }
+    main{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
     .caixa
     {
         width: 550px;
@@ -14,6 +25,13 @@
         margin: 0 auto;
     }
     </style>
+    <script type="text/javascript">
+        function troca_imagem (elemento) 
+        {
+            var alvo = document.getElementById ("alvo");
+            alvo.src = elemento.src 
+        }
+    </script>
 </head>
 <body>
     <main>
@@ -27,8 +45,6 @@
         <img class= "tumb" width="100" src="images/tv-05.jpg" alt="" title="" onClick="troca_imagem(this)">
         </div>
     </main>
-
-    <br>
     <b> <h1> Smart TV LED Android 40 " Philco PTV40E20DSGWA Full HD com Conversor Digital 2 HDMI 1 USB Wi-fi 60hz Preta" </h1> </b> 
     <br>
     (cód.132046009)
