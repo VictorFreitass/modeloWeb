@@ -1,0 +1,50 @@
+table{
+    margin-top: 40px;
+    border: none;
+}
+.Maio{
+    margin-top: 10%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300
+}
+.cabecalho{
+    margin-top: 15%;
+    margin-left: 45%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b4353;
+    border-radius: 5px;
+    width: 15em;
+    height: 18em;
+}
+td:first-child{
+    color: red;
+}
+table tr, table tr{
+    border: 0em solid black;
+}
+table td{
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border: 1px solid black;
+
+}
+.junho{
+    color: #e5e5e5;
+}
+.dia-1{
+    color: #e5e5e5;
+}
+.dia-2{
+    color: #e5e5e5;
+}
+.dia-3{
+    color: #e5e5e5;
+}
+.dia-4{
+    color: #e5e5e5;
+}
