@@ -1,0 +1,70 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #d0b8ac
+}
+.container{
+    display: grid;
+    grid-template: 10vh 50vh 20vh 10vh/ 1fr 1fr 2fr 1fr;
+    grid-template-areas: "h h h""m m s" "f f f";
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+}
+header {  
+    display: flex;
+    justify-content: flex-start;
+    grid-area: h;
+    align-items: center;
+    background: #d4a98e;
+}
+nav {
+    display: flex;
+    justify-content: start;
+    grid-area: m;
+    width: 25vh;
+    background: #ccb29c;
+}
+section {
+    background: #beac91b2;
+    display: flex;
+    justify-content: flex-start;
+    grid-area: s;
+    width: 60vh;
+}
+section header {
+    display: flex;
+    justify-content:flex-start;
+    grid-area: h;
+    width: 60vh;
+    background: #d3c3acb9;
+}
+section article {
+    display: flex;
+    justify-content: flex-start;
+    grid: h;
+    width: 80vh;
+    background: #c9ba9f88;
+}
+section footer {
+    display: flex-start;
+    justify-content: end;
+    grid: f;
+    width: 20vh;
+    background: #c4b5a0ab;
+}
+aside {
+    display: flex;
+    justify-content:flex-start;
+    grid: m;
+    width: 25vh;
+    background: #dab778;
+}
+footer {
+    display: flex;
+    justify-content: flex-start;
+    grid: f;
+    width: 196.4vh;
+    height: 10vh;
+    background: #b18c48;
+}
