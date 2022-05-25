@@ -1,44 +1,59 @@
-html,body {
+html,
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background: #232133;
 }
-.container{
+
+.container {
     display: grid;
-    grid-template: 100vh 40vh 10vh 1fr 3fr 1fr; 
-    grid-template-areas: "h h n" "a a ar ar s" "f f f"; 
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
+    grid-template: repeat(5 1fr);
+    grid-template-areas:
+     "h h h h h"
+     "a a art art art"
+     "a a sec sec sec"
+     "f f f f f";
+     grid-gap: 10px;
 }
-header{
-background: white;
-width: 100vh;
-grid: h;
+
+header {
+    background: white;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    grid-area: h;
 }
-nav{
-background: blue;
-width: 40vh;
-grid: n;
+
+nav {
+    background: blue;
+    align-self: flex-end;
+    width: 70em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    padding-left: 10px;
 }
-.container-1
-aside{
-background: green;
-width: 40vh;
-grid: a;
+
+aside {
+    background: green;
+    height: 80vh;
+    grid-area: a;
 }
-article{
-background: grey;
-width: 10vh;
-grid: ar;
+
+article {
+    background: grey;
+    height: 40vh;
+    grid-area: art;
 }
-section{
-background: gold;
-width: 10vh;
-grid: s;
+
+section {
+    background: gold;
+    height: 40vh;
+    grid-area: sec;
 }
-footer{
-background: red;
-width: 100vh;
-grid: f;
+
+footer {
+    background: red;
+    height: 10vh;
+    grid-area: f;
 }
