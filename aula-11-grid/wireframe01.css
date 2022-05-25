@@ -10,10 +10,10 @@ body {
     display: grid;
     grid-template: repeat(5 1fr);
     grid-template-areas:
-     "h h h h h"
-     "a a art art art"
-     "a a sec sec sec"
-     "f f f f f";
+     "h h"
+     "a art"
+     "a sec"
+     "f f";
      grid-gap: 10px;
 }
 
