@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth
+    ;
+}
+body{
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+#menu li a{
+    text-decoration: none;
+    color: #fff;
+}
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+#home{
+    background-color: #03045E;
+}
+#quemsou{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #023E8A;
+}
+#cursos{
+    background-color: #0077B6;
+}
+#projetos{
+    background-color: #0096C7;
+}
+#contato{
+    background-color: #00B4D8;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.img-1{
+    width: 30%;
+}
