@@ -86,3 +86,18 @@ img{
         display: none;
     }
 }
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vh;
+    height: 50vh;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Electric_Golf_cart_EZGO_1.jpg/640px-Electric_Golf_cart_EZGO_1.jpg ") no-repeat;
+    background-size: cover;
+
+}
+
+.principal{
+    background-attachment: fixed ;
+    background-position: center;
+}
