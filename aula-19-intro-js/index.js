@@ -34,9 +34,12 @@ console.log (`O valor desse cara é: ${l1*'154'}`)
 // document.write(abrir())
 function tabuada (){
     let numero = Number(document.getElementById ('txtn').value)
-    let res = document.getElementById ('result')
-    for (let i= 0; i < 11; i++){
-        res.innerHTML += `${numero} x ${i} = ${numero*i} <br>`
+    let resUL = document.getElementById ('result')
+    resUL.innerHTML = ''
+    for (let i= 0; i < 11; i++){ 
+        let item = document.createElement('li')
+        item.innerHTML = numero + ' x ' + i + ' = ' + numero*i
+        item.id= `item${i}`
+        resUL.appendChild(item)
     }
 }
-
